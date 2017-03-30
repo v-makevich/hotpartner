@@ -1,0 +1,83 @@
+#features
+	padding: 60px 0 150px
+	background: url(../img/hair-bg.png) center no-repeat
+	background-size: cover
+	h2
+		color: #327597
+		font-size: 48px
+		text-transform: uppercase
+		font-weight: 800
+		text-align: center
+		+ .clarify
+			margin-top: 5px
+			text-align: center
+			color: #327597
+			font-size: 24px
+			font-weight: 800
+			.mark
+				position: relative
+			.mark:before
+				content: ''
+				position: absolute
+				bottom: 3px
+				left: 0
+				width: 100%
+				height: 12px
+				z-index: -1
+				background-color: #ffcc00
+	.features
+		color: #4d4d4d
+		.clarify
+			font-size: 24px
+			font-weight: 800
+			text-align: center
+			margin-top: 45px
+	.features-list
+		font-size: 16px
+		font-weight: 800
+		ul
+			max-width: 850px
+			margin: 35px auto 0
+			display: flex
+			justify-content: space-between
+			flex-wrap: wrap
+			align-items: flex-start
+		li
+			position: relative
+			width: 330px
+			padding-left: 45px
+			margin-top: 20px
+		li:before
+			content: ''
+			position: absolute
+			top: -5px
+			left: 0px
+			width: 35px
+			height: 24px
+			background: url(../img/check-yellow.svg) center no-repeat
+			background-size: 100%
+	.order-btn
+		margin-top: 80px
+		.arr-anim
+			position: absolute
+			bottom: 0
+			right: -300px
+			width: 275px
+			height: 125px
+			transform: rotateZ(180deg)
+			background-size: 85%
+			z-index: 1
+			img
+				width: 85%
+		.arr-anim:before
+			box-shadow: 0 -10px 35px 5px rgba(28, 29, 29, .7)
+			content: ''
+			position: absolute
+			top: 40px
+			left: 25px
+			transform: rotateZ(-17deg)
+			width: 200px
+			height: 10px
+			border-radius: 50%
+			background: red
+			z-index: -1

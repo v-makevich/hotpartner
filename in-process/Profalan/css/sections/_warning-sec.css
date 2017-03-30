@@ -1,0 +1,90 @@
+#warning:after,
+#warning:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 15px; }
+
+#warning:before {
+  top: 0;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 17px, #4d4d4d 17px, #4d4d4d 30px); }
+
+#warning:after {
+  bottom: 0;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 17px, #4d4d4d 17px, #4d4d4d 30px); }
+
+#warning {
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+  color: #4d4d4d;
+  background-color: #e7e232; }
+  #warning h2 {
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase; }
+  #warning .content {
+    max-width: 550px; }
+  #warning .content:before,
+  #warning .content:after {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 115px;
+    top: 50%;
+    margin-top: -55px;
+    opacity: .85;
+    background: url(../img/warning.svg) center no-repeat; }
+  #warning .content:before {
+    left: -300px; }
+  #warning .content:after {
+    right: -300px; }
+  #warning .clarify {
+    font-size: 24px;
+    margin: 10px auto 0; }
+  #warning .mark {
+    font-weight: 800; }
+  #warning .mark-blue {
+    color: #fff;
+    background-color: #327597;
+    font-weight: 700;
+    padding: 0 7px;
+    display: inline-block;
+    line-height: 1.5em; }
+  #warning .warning_list {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 25px auto 0;
+    left: 50px;
+    position: relative; }
+    #warning .warning_list ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+    #warning .warning_list li {
+      margin-top: 20px;
+      width: 50%;
+      display: inline-block;
+      position: relative; }
+    #warning .warning_list li:before {
+      content: '';
+      position: absolute;
+      top: -7px;
+      left: -40px;
+      width: 35px;
+      height: 25px;
+      background: url(../img/check.svg) center no-repeat;
+      background-size: 100%; }
+    #warning .warning_list .notion {
+      font-weight: 400; }

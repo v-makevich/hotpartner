@@ -1,0 +1,179 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.content
+		max-width: 900px
+	#warning .content:after
+		right: -150px
+	#warning .content:before
+		left: -150px
+	#ingred_slider
+		max-width: 900px
+		margin: 0 auto
+	#ingred_slider .slide-item
+		max-width: 285px
+		height: 390px
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px)
+	#ingred_slider
+		max-width: 650px
+	#ingred_slider .slide-item
+		margin: 0 auto
+	#warning .content:before, #warning .content:after
+		width: 90px
+	#warning .content:after
+		right: -90px
+	#warning .content:before
+		left: -90px
+	.owl-nav
+		top: 50%
+		margin-top: -30px
+		width: 100%
+		left: 0
+	#features .features-list ul
+		max-width: 720px
+		margin: 35px auto 0
+		position: relative
+	#features .order-btn .arr-anim
+		right: -265px
+		width: 260px
+	#faq .caption
+		font-size: 16px
+	#warning .warning_list
+		margin-left: 50px
+		left: 0
+	.ingred_top
+		padding: 70px 20px
+	.owl-nav .owl-prev, .owl-nav .owl-next
+		width: 25px
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	#warning
+		padding: 150px 20px 70px
+		.content:before
+			top: 0
+			margin-top: -125px
+			left: 50%
+			margin-left: -65px
+	#warning .content:after
+		display: none
+	#warning .content:before, #warning .content:after
+		width: 130px
+	#warning .clarify
+		font-size: 19px
+	#ingredients h2
+		font-size: 40px
+	.owl-nav
+		width: 70%
+		left: 15%
+	#features .features-list li
+		margin: 20px auto 0
+	#features .order-btn .arr-anim
+		right: -80px
+		width: 150px
+		bottom: 85px
+		transform: rotateZ(160deg)
+	#features .order-btn .arr-anim:before
+		top: 18px
+		width: 95px
+	#faq .caption
+		line-height: 1.2em
+		font-size: 15px
+		padding: 20px 40px 20px 20px
+	#faq h2
+		font-size: 38px
+	#to-top
+		font-size: 28px
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 425px)
+	#warning
+		padding: 150px 0 70px
+		h2
+			font-size: 40px
+		.clarify
+			font-size: 16px
+		.warning_list
+			font-size: 16px
+			li:before
+				width: 27px
+				left: -29px
+	#ingredients h2
+		font-size: 29px
+	.ingred_top .clarify
+		font-size: 16px
+	.owl-nav
+		width: 60%
+		left: 20%
+	#ingredients .bot-box .caption
+		font-size: 21px
+	#features h2
+		font-size: 29px
+		p
+			display: inline
+		+ .clarify
+			font-size: 18px
+			p
+				display: inline
+	#features .features
+		.clarify
+			font-size: 18px
+			p
+				display: inline
+	#features .features-list li:before
+		width: 29px
+		left: 10px
+	#features .features-list ul
+		padding-right: 5px
+	#faq h2
+		font-size: 31px
+	#faq .faq-item-content
+		padding: 50px 25px
+		margin: 0 15px
+	#to-top
+		font-size: 23px
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

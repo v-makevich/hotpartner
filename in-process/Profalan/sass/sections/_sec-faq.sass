@@ -1,0 +1,58 @@
+#faq
+	padding: 80px 0
+	background-color: #f8f8f8
+	h2
+		color: #327597
+		font-size: 48px
+		font-weight: 800
+		text-align: center
+		text-transform: uppercase
+	.faq-item-content:before
+		content: ''
+		position: absolute
+		width: 100%
+		height: 30px
+		bottom: -30px
+		left: 0
+		background-color: #fff
+	.faq-item-content
+		display: none
+		margin: 0 30px
+		padding: 100px 60px
+		background-color: #fff
+		line-height: 1.2em
+		position: relative
+		p:not(:first-child)
+			margin-top: 30px
+	.faq-list
+		color: #4d4d4d
+		max-width: 830px
+		margin: 70px auto
+		li:not(:first-child)
+			margin-top: 30px
+	.caption
+		cursor: pointer
+		background-color: #fff
+		border-radius: 5px
+		line-height: 50px
+		padding: 0 30px
+		text-transform: uppercase
+		position: relative
+		z-index: 1
+		font-size: 18px
+		font-weight: 800
+		transition: .35s
+	.caption.active
+		box-shadow: 0 15px 15px rgba(28, 29, 29, 0.3)
+	.caption.active:before
+		transform: rotateZ(180deg)
+	.caption:before
+		content: ''
+		transition: .35s
+		position: absolute
+		width: 18px
+		height: 12px
+		background: url(../img/faq-btn.svg) center no-repeat
+		top: 50%
+		margin-top: -6px
+		right: 20px
