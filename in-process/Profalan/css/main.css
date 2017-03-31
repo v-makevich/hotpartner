@@ -323,6 +323,9 @@ section {
 
 #video-slider {
   padding: 40px 0 30px; }
+  #video-slider #video-carousel {
+    padding: 0 50px;
+    position: relative; }
   #video-slider .slide-item {
     width: 100%; }
   #video-slider .vid_item-1 img {
@@ -330,8 +333,8 @@ section {
 
 #features {
   padding: 60px 0 150px;
-  background: url(../img/hair-bg.png) center no-repeat;
-  background-size: cover; }
+  background: url(../img/order-comb-2.png) calc(50% + 450px) 37% no-repeat, url(../img/order-comb-1.png) calc(50% - 450px) 100px no-repeat, url(../img/hair-bg.png) center no-repeat;
+  background-size: auto, auto, cover; }
   #features h2 {
     color: #327597;
     font-size: 48px;
@@ -557,6 +560,11 @@ section {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1024px) {
+  #video-carousel .owl-nav {
+    width: 86%;
+    left: 7%; }
+  #features {
+    background: url(../img/hair-bg.png) center no-repeat; }
   #ingred_slider {
     max-width: 650px; }
   #ingred_slider .slide-item {
@@ -582,8 +590,9 @@ section {
   #faq .caption {
     font-size: 16px; }
   #warning .warning_list {
-    margin-left: 50px;
-    left: 0; }
+    margin-left: 40px;
+    left: 0;
+    width: 570px; }
   .ingred_top {
     padding: 70px 20px; }
   .owl-nav .owl-prev, .owl-nav .owl-next {
@@ -592,6 +601,12 @@ section {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .play-btn {
+    width: 66px;
+    height: 66px;
+    margin-top: -33px;
+    margin-left: -33px;
+    background-size: 50%; }
   #warning {
     padding: 150px 20px 70px; }
     #warning .content:before {
@@ -634,6 +649,9 @@ section {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 425px) {
+  #video-carousel .owl-nav {
+    width: 66%;
+    left: 17%; }
   #warning {
     padding: 150px 0 70px; }
     #warning h2 {
@@ -641,7 +659,7 @@ section {
     #warning .clarify {
       font-size: 16px; }
     #warning .warning_list {
-      font-size: 16px; }
+      font-size: 14px; }
       #warning .warning_list li:before {
         width: 27px;
         left: -29px; }
