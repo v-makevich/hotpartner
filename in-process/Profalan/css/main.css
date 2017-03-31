@@ -280,8 +280,11 @@ section {
 
 #ingred_slider .slide-img {
   height: 260px;
-  line-height: 260px; }
+  line-height: 260px;
+  text-align: center; }
   #ingred_slider .slide-img img {
+    max-width: 100%;
+    width: auto;
     vertical-align: middle;
     display: inline-block; }
 
