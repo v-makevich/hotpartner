@@ -68,4 +68,11 @@ $(function() {
 		});
 	}());
 //END of HOVER INGREDIENT
+//SCROLL TO
+$('#to-top-arr').click(function() {
+    $('html, body').animate({
+        scrollTop: $('#features').offset().top
+    }, 1000);
+});
+//END of SCROLL TO
 });

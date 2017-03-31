@@ -223,7 +223,7 @@ section {
   text-transform: uppercase; }
 
 .ingred_top {
-  background: url(../img/ingreds.svg) calc(50% + 400px) center no-repeat;
+  background: url(../img/ingreds.gif) calc(50% + 400px) center no-repeat;
   background-size: 200px;
   position: relative;
   text-align: center;
@@ -517,44 +517,44 @@ section {
     background-color: #327597;
     position: relative; }
 
-#to-top-arr .box-arr {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: -20px;
-  right: 50%;
-  background: #327597;
-  -webkit-transform: rotateZ(-31deg) skew(25deg);
-  -ms-transform: rotate(-31deg) skew(25deg);
-  transform: rotateZ(-31deg) skew(25deg);
-  margin-right: -25px;
-  z-index: 0; }
-
-#to-top-arr .arr-1 {
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  margin-left: -35px;
-  width: 67px;
-  height: 25px;
-  background: url(../img/faq-arr-1.svg) center no-repeat;
-  background-size: cover;
-  opacity: .8;
-  -webkit-animation: slide_arrow 1.5s linear infinite;
-  animation: slide_arrow 1.5s linear infinite; }
-
-#to-top-arr .arr-2 {
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  margin-left: -21px;
-  width: 40px;
-  height: 20px;
-  background: url(../img/faq-arr-1.svg) center no-repeat;
-  background-size: cover;
-  opacity: 0;
-  -webkit-animation: slide_arrow 1.5s linear infinite;
-  animation: slide_arrow 1.5s linear infinite; }
+#to-top-arr {
+  cursor: pointer; }
+  #to-top-arr .box-arr {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -20px;
+    right: 50%;
+    background: #327597;
+    -webkit-transform: rotateZ(-31deg) skew(25deg);
+    -ms-transform: rotate(-31deg) skew(25deg);
+    transform: rotateZ(-31deg) skew(25deg);
+    margin-right: -25px;
+    z-index: 0; }
+  #to-top-arr .arr-1 {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -35px;
+    width: 67px;
+    height: 25px;
+    background: url(../img/faq-arr-1.svg) center no-repeat;
+    background-size: cover;
+    opacity: .8;
+    -webkit-animation: slide_arrow 1.5s linear infinite;
+    animation: slide_arrow 1.5s linear infinite; }
+  #to-top-arr .arr-2 {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -21px;
+    width: 40px;
+    height: 20px;
+    background: url(../img/faq-arr-1.svg) center no-repeat;
+    background-size: cover;
+    opacity: 0;
+    -webkit-animation: slide_arrow 1.5s linear infinite;
+    animation: slide_arrow 1.5s linear infinite; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -611,7 +611,7 @@ section {
     max-width: 570px; }
   .ingred_top {
     padding: 215px 20px 70px;
-    background: url(../img/ingreds.svg) center 20px no-repeat;
+    background: url(../img/ingreds.gif) center 20px no-repeat;
     background-size: 200px; }
   .owl-nav .owl-prev, .owl-nav .owl-next {
     width: 25px; }
@@ -654,6 +654,8 @@ section {
     left: 15%; }
   #features .features-list li {
     margin: 20px auto 0; }
+  #features .features-list p p {
+    display: inline; }
   #features .order-btn .arr-anim {
     right: -80px;
     width: 150px;
