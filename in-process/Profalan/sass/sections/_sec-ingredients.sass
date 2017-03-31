@@ -4,6 +4,8 @@
 		font-size: 48px
 		text-transform: uppercase
 .ingred_top
+	background: url(../img/ingreds.svg) calc(50% + 400px) center no-repeat
+	background-size: 200px
 	position: relative
 	text-align: center
 	color: #327597
@@ -20,7 +22,18 @@
 			font-weight: 800
 			font-size: 24px
 		.mark
-			font-weight: 800	
+			font-weight: 800
+			position: relative
+			display: inline-block
+		.mark:before
+			content: ''
+			position: absolute
+			bottom: 0
+			left: 0
+			height: 12px
+			width: 100%
+			background-color: #e7e232
+			z-index: -1
 .ingred_slider
 	background-color: #f0f0f0
 	padding: 40px 0 20px
